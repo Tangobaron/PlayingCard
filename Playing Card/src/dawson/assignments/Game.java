@@ -32,13 +32,9 @@ public class Game {
 				deckindex++;
 			}
 		}
-		//		for (int i = 0; i<cards.length; i++) {
-		//			int suitindex = i%4;
-		//			int valueindex = i%13;
-		//			cards[i] = new PlayingCard( suits[suitindex], valueindex);
-		//			System.out.println(cards[i].print());
-		////			System.out.println(suitindex +" "+ valueindex);
-		//		}
 	}
 
+	public Class<PlayingCard[]> getCard() {
+		return PlayingCard[].class;
+	}
 }
